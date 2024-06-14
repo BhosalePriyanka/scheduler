@@ -1,52 +1,10 @@
-body{background-color: pink;}
 
-.container{
-position: relative;
-height: 100vh;
-}
-#text{
-    left:50%;
-    top:50%;
-    position: absolute;
-    transform: translate(-50%,-50%);
-    
-}
-
-.menubar{height:120px;width:100%;margin: 0;}
-
-.menubar ul{display: flex;list-style: none;width: 50%;height: 100%;float: right;margin: 0;
-    align-items: center;justify-content: space-evenly;font-size: 22px;font-weight: bold;}
-
-.menubar ul li a{text-decoration: none; }
-
-#check{display: block;margin: 0;float: left;}
-
-
-@media only screen and (max-width: 768px){
-.menubar{height:120px;width:100%;margin: 0;align-items: center;padding: 0;}
-.menubar ul{display: none;padding: 0;margin: 0; width: 100%;text-align: center;}
-    #check:checked ~  ul {display: block;}
-}
-.grid-container{display: grid;}
-.grid-container > div {
-    background-color: rgba(255, 255, 255, 0.8);
-    text-align: center;
-    padding: 20px 0;
-    font-size: 30px;
-  }
-
-  .container{
-    display: flex;
-   background-color: aqua;
-    flex-wrap: wrap;
-    width:400px ;
-    justify-content: center;
-    align-content: center;
-  }
-  .item{
-    width:100px; height: 100px; border :10px solid red;
-    
-  }
-  .container1{position: relative;height: 100vh;}
-.item1{left: 50%;top: 50%; position: absolute;transform: translate(-50%-50%);}
-
+.yearly .yearly-onthe { display: none; }
+.monthly .monthly-onthe { display: none; }
+.monthly { display: none; }
+.weekly { display: none; }
+.daily { display: none; }
+.hourly { display: none; }
+input[type="number"] { width: 2em; }
+#rrules-end > span { display: none; }
+#rrule { padding: 1em; }
